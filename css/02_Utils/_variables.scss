@@ -1,36 +1,66 @@
 // les differentes couleurs : il y a 4 niveaux de gris (du plus foncé au plus clair : 1 2 3 4) et le doré (5)
 $couleur1: #1b1b1b;
-<<<<<<< HEAD
+$couleur2: #1e1e1e;
+$couleur3: #222222;
+$couleur4: #2b2b2b;
+$couleur5: #ab8a62;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+$fontThemify : 
 
 
 
 $TitreDeNiveau1: color white;
-
 $TitreDeNiveau2: color #ab8a62;
 $TitreDeNiveau3: color white;
 $TitreDeNiveau4: color white;
 
 $Icone: color white;
 
+body{
+    display: grid;
+    grid-template-columns: (1fr, 1fr);
+    width: 100%;
+}
 
-=======
-$couleur2: #1e1e1e;
-$couleur3: #222222;
-$couleur4: #2b2b2b;
-$couleur5: #ab8a62;
->>>>>>> 4fc21ffa0fde421cb5b41f70b4654c5a986f7be8
+nav{
+    display: flex;
+    flex-direction: column;
+}
 
+header div{
+    background-color: #1b1b1b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.lien__menu{
+    color: #8f8f8f;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 30px;
+    margin-left: 40px;
+    &:hover{
+        color: #ab8a62;
+    }
+}
+
+.decalage{
+    margin-left: 600px;
+}
+
+.bodyAccueil{
+    background-color: #2b2b2b;
+}
+
+.h4Accueil{
+    color: white;
+    font-size: 50px;
+}
+
+.fontContact{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
