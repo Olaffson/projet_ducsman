@@ -1,0 +1,44 @@
+.gridContainerContact{
+    display: grid;
+    grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+    grid-template-rows: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+    
+}
+
+.gridContainerFooter{
+    display: grid;
+    grid-template-columns: 6 ;
+    grid-template-rows: 5 ;
+    }
+
+    .gridItems1{
+grid-column-start: span 4;
+    }
+
+    .gridItems2{
+grid-column-start: span 4;
+grid-row: span 5;
+    }
+
+    .gridItems3{
+grid-column-start: 4 ;
+grid-column-end: 6;
+grid-row-start: 5 ;
+grid-row-end: 1;
+    }
+
+    .gridItems4{
+
+    }
+
+    .gridItems5{
+
+    }
+
+    .gridItems6{
+
+    }
+
+    .gridItems7{
+
+    }
