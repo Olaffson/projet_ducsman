@@ -1,44 +1,41 @@
-.gridContainerContact{
+.gridContainerContact {
     display: grid;
-    grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
-    grid-template-rows: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
-    
+    grid-template-columns: repeat(6 1fr);
+    grid-template-rows: repeat(6 1fr);
+
 }
 
-.gridContainerFooter{
+.gridContainerFooter {
     display: grid;
-    grid-template-columns: 6 ;
-    grid-template-rows: 5 ;
-    }
+    grid-template-columns: repeat(6 1fr);
+    grid-template-rows: repeat(4 1fr);
+    grid-area:
+        "APropos APropos APropos APropos Contact Contact"
+        "APropos APropos APropos APropos Contact Contact"
+        "APropos APropos APropos APropos Contact Contact"
+        "Mention Mention Mention Mention Mention Mention";
+}
 
-    .gridItems1{
-grid-column-start: span 4;
-    }
+.grigFooterApropos {
+    display: grid;
 
-    .gridItems2{
-grid-column-start: span 4;
-grid-row: span 5;
-    }
+    justify-content: flex-start;
+    grid-area: APropos;
 
-    .gridItems3{
-grid-column-start: 4 ;
-grid-column-end: 6;
-grid-row-start: 5 ;
-grid-row-end: 1;
-    }
+}
 
-    .gridItems4{
+.gridFooterContact {
+    display: grid;
 
-    }
+    justify-content: flex-end;
+    grid-area: Contact;
 
-    .gridItems5{
+}
 
-    }
+.gridFooterMentionsLegales {
+    display: grid;
+    height: 50px;
+    grid-area: Mention;
 
-    .gridItems6{
-
-    }
-
-    .gridItems7{
-
-    }
+    gap: 100px;
+}

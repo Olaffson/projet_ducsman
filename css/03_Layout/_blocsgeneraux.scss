@@ -2,7 +2,7 @@
 .bodyContact{
     background-color: #2b2b2b;
  //   margin-left: 650px;
-
+    max-width: 1100px;
     padding: 20px;
 }
 
@@ -91,6 +91,7 @@ textarea{
 .footer{
     background-color: #1b1b1b;
     padding: 20px;
+    justify-content: center;
 }
 
 .psouligneFooter{
@@ -99,6 +100,8 @@ textarea{
     line-height: 30px;
     text-decoration: underline;
     text-underline-position: below;
+    text-decoration-color: #ab8a628a;
+    text-decoration-thickness: 2px;
 }
 
 
