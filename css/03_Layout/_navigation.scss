@@ -1,0 +1,77 @@
+header{
+    background-color: #1b1b1b;
+    color: white;
+    width: 400px;
+    grid-column: span 2;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Barlow', sans-serif;}
+
+// le decalage pour laisser la place a la barre de nav sur la gauche
+.decalage{
+    margin-left: 400px;
+};
+
+.logo__menu{
+    text-decoration: none;
+    padding: 20px;
+    
+}
+
+.lien__menu{
+    color: #8f8f8f;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 20px;
+    margin-left: 40px;
+    &:hover{
+        color: $color5;
+    }
+}
+
+header > a{
+    background-color: #1b1b1b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    p{
+        &:nth-child(2){
+            font-size: 2.5em;
+            color: $color5;
+            text-transform: uppercase;
+            padding: 10px;
+            font-family: 'Gilda Display', serif;
+        }
+        &:nth-child(3){
+            font-size: 1em;
+            color: white;
+            text-transform: uppercase;
+        }
+    }
+}
+
+header > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.padding__nav{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    div{
+        p:nth-child(1){
+            font-size: 1.2em;
+        }
+        p:nth-child(2){
+            font-size: 2em;
+            color: $color5;
+        }
+    }
+}

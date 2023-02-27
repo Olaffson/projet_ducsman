@@ -1,0 +1,40 @@
+.btn__reserver{
+    display: block;
+    padding: 15px 20px;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(255, 255, 255);
+    border: 1px solid;
+    text-transform: uppercase;
+    font-family: 'Barlow', sans-serif;
+    width: fit-content;
+    height: fit-content;
+    text-decoration: none;
+}
+
+.btn__entete{
+    display: block;
+    padding: 15px 20px;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(255, 255, 255);
+    border: 1px solid;
+    text-transform: uppercase;
+    font-family: 'Barlow', sans-serif;
+    width: fit-content;
+    text-decoration: none;
+}
+
+.btn2{
+    display: block;
+    padding: 15px 20px;
+    background-color: $color5;
+    color: white;
+    width: fit-content;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Barlow', sans-serif;
+    transition: all 0.5s ;
+    &:hover{
+        color: white;
+        background-color: rgb(69, 69, 69);
+    }
+}

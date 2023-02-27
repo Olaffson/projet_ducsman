@@ -1,0 +1,93 @@
+.position{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100vh;
+    z-index: 3;
+}
+
+.position__back{
+    position: relative;
+}
+
+.position__font{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.position__chambre__font{
+    position: absolute;
+    bottom: 20px;
+}
+
+.position__chambre__reserver{
+    position: absolute;
+    top: 60px;
+    right: 0px;
+}
+
+.vertical{
+    transform: rotate(270deg);
+}
+
+.grid__chambres{
+
+    figure{
+        position: relative;
+        
+        figcaption{
+            
+            >a{
+                position: absolute;
+                right: -10px;
+                top: 60px;
+                transform: rotate(270deg);
+            }
+
+            .cache{
+                position: absolute;
+                bottom: 0px;
+                width: 100%;
+
+                >p:nth-child(1){
+                    color: white;
+                    font-size: 2em;
+                    padding: 10px;
+                }
+
+                >p:nth-child(2){
+                    color: white;
+                    font-size: 2.5em;
+                    padding: 10px;
+                }
+
+                .cache1{
+                    display: flex;
+                    justify-content: space-between;
+
+                    .cache2{
+                        display: flex;
+                        
+                        a{
+                            color: white;
+                        }
+
+                        p{
+                            color: white;
+                            font-size: 1.5em;
+                            padding: 10px;
+                        }
+                        
+
+                    }
+                }
+
+
+            }
+        }
+    }
+    
+
+    
+}

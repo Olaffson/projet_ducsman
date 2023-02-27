@@ -1,87 +1,14 @@
-@import './07_Vendors/reset.css';
-@import './07_Vendors/normalize.css';
-@import './02_Utils/themify-icons.css';
+@import './01_Base/normalize';
+@import './01_Base/reset';
 @import './02_Utils/variables';
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-body{
-    display: grid;
-    grid-template-columns: (1fr, 1fr);
-    width: 100%;
-}
-
-header{
-    background-color: #1b1b1b;
-    color: white;
-    width: 600px;
-    grid-column: span 2;
-    border: 1px solid black;
-}
-
-nav{
-    display: flex;
-    flex-direction: column;
-}
-
-header div{
-    background-color: #1b1b1b;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-div{
-    // background-color: #1e1e1e;
-    background-color: white;
-    border: 1px solid black;
-}
-
-main{
-    border: 1px solid black;
-}
-
-footer{
-    border: 1px solid black;
-}
-
-.lien__menu{
-    color: #8f8f8f;
-    text-transform: uppercase;
-    text-decoration: none;
-    padding: 20px;
-    font-size: 30px;
-    margin-left: 40px;
-    &:hover{
-        color: #ab8a62;
-    }
-}
-
-.decalage{
-    margin-left: 600px;
-}
-
+@import './01_Base/typography';
+@import './07_Vendors/themify-icons';
+@import './07_Vendors/flaticons';
+@import './04_Components/effet_image';
+@import './04_Components/tuile';
+@import './04_Components/btn';
+@import './03_Layout/navigation';
+@import './03_Layout/footer';
+@import './03_Layout/grid';
+@import './03_Layout/position';
+@import './05_Pages/accueil';
