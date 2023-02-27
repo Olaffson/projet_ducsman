@@ -1,22 +1,52 @@
-.zoom{
+// zoom
+.zoom {
     overflow: hidden;
-    img{
+
+    img {
         width: 100%;
         height: auto;
         -webkit-transition: 1s ease-in-out;
         transition: 1s ease-in-out;
-        &:hover{
+
+        &:hover {
             -webkit-transform: scale(1.09);
             transform: scale(1.09);
-            
         }
     }
 }
 
-.darkened{
+// figure:hover .zoom{
+    
+// }
+
+// assombrissement
+.darkened {
     -webkit-transition: 1s ease-in-out;
     transition: 1s ease-in-out;
-    &:hover{
-        filter: brightness(70%);
+}
+
+figure:hover .darkened{
+    filter: brightness(70%);
+}
+
+// barre qui s allonge
+.ma_barre {
+    position: relative;
+
+    &::after {
+        display: block;
+        position: absolute;
+        background-color: rgb(255, 255, 255);
+        content: "";
+        bottom: 35px;
+        height: 1px;
+        left: 10px;
+        width: 60px;
+        transition: 1.5s ease-in-out;
     }
+}
+
+figure:hover .ma_barre::after {
+    left: 10px;
+    width: 95%;
 }
