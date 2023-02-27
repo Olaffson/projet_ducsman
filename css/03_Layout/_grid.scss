@@ -1,3 +1,30 @@
+.grid_presentation{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+    gap: 40px;
+
+    .ligne1{
+        h3{
+            padding-top: 20px;
+            padding-bottom: 10px;
+        }
+        h4{
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+    }
+    img{
+        width: 100%;
+        }
+    .decalage_image{
+        margin-top: 90px;
+    }
+}
+
+.photo__etalement{
+    width: 100%;
+}
+
 // grid page acceuil section chambres
 .grid__chambres{
     display: grid;
@@ -30,6 +57,15 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+
+        h5{
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+
+        p{
+            padding-bottom: 20px;
+        }
     }
 }
 
@@ -40,12 +76,28 @@
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
     height: 300px;
     gap: 30px;
-    div{
+    >div{
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        >p{
+            padding-top: 15px;
+            padding-bottom: 15px;
+        }
+
         article{
             display: flex;
-            justify-content: center;
             align-items: center;
-            padding: 20px;
+            padding-top: 20px;
+
+            div{
+                p:nth-child(2){
+                    font-size: 1.5em;
+                    color: $color5;
+                }
+            }
         }
         &:nth-child(2), &:nth-child(3){
             background-color: $color4;

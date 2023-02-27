@@ -5,9 +5,12 @@ h1{
     font-family: 'Gilda Display', serif;
 }
 
-// h2{
-
-// }
+h2{
+    font-family: 'Barlow', sans-serif;
+    text-transform: uppercase;
+    color: white;
+    font-size: 1.5em;
+}
 
 h3 {
     color: $color5;
@@ -41,6 +44,15 @@ p {
 
 .ti-star{
     color: $color5;
+}
+
+.ti-check{
+    font-size: 1.5em;
+    color: $color5;
+}
+
+.ti-close{
+    font-size: 1.5em;
 }
 
 .flaticon-call {

@@ -1,16 +1,15 @@
-.design__expDuLuxe{
+.design_entete{
+    h1{
+        padding: 10px;
+    }
+    h2{
+        padding: 20px;
+    }
+}
+
+.design_presentation{
     background-color: $color3;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-}
-
-#design__expDuLuxe__element{
-    align-self: flex-end;
-}
-
-.height__expDuLuxe{
-    height: 800px;
+    padding: 100px;
 }
 
 .design__chambres{
@@ -33,6 +32,3 @@
     padding: 100px;
 }
 
-.design__entete{
-    
-}
