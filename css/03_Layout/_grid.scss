@@ -22,6 +22,7 @@
 }
 
 .photo__etalement{
+    display: block;
     width: 100%;
 }
 
@@ -57,14 +58,68 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-
         h5{
             padding-top: 10px;
             padding-bottom: 10px;
         }
-
         p{
             padding-bottom: 20px;
+        }
+    }
+}
+
+// grid page accueil section chambre
+.grid__chambres{
+    figure{
+        position: relative;
+        figcaption{
+            >a{
+                position: absolute;
+                right: -10px;
+                top: 60px;
+                transform: rotate(270deg);
+            }
+            .cache{
+                position: absolute;
+                bottom: 0px;
+                width: 100%;
+                >p:nth-child(1){
+                    color: white;
+                    font-size: 2em;
+                    padding: 10px;
+                }
+                >p:nth-child(2){
+                    color: white;
+                    font-size: 2.5em;
+                    padding: 10px 10px 60px 10px;
+                }
+                .cache1{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: first baseline;
+                    a{
+                        color: white;
+                        text-decoration: none;
+                        text-transform: uppercase;
+                        font-family: 'Barlow', sans-serif;
+                        font-size: 1.2em;
+                        &:hover{
+                            color: $color5;
+                        }
+                    }
+                    .cache2{
+                        display: flex;
+                        a{
+                            color: white;
+                        }
+                        p{
+                            color: white;
+                            font-size: 1.8em;
+                            padding: 10px 10px 40px 10px;
+                        }
+                    }
+                }
+            }
         }
     }
 }
@@ -132,7 +187,16 @@
     }
 }
 
-
+// grid page detail chambre
+.grid_detail_chambre{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 40px;
+    >div{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    }
+}
 
 
 
