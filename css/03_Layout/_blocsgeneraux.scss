@@ -1,0 +1,148 @@
+
+.bodyContact{
+    background-color: #2b2b2b;
+ //   margin-left: 650px;
+    max-width: 1100px;
+    padding: 50px;
+}
+
+.bodyFooter{
+    background-color: #2b2b2b;
+    //   margin-left: 650px;
+       max-width: 1100px;
+       padding: 20px;
+
+}
+
+.divMapGoogle{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+p{
+    color: #ffffffab;
+    font-family: 'Gilda Display', serif;
+    line-height: 30px;
+    font-size: 16px;
+}
+
+.p2{
+    color: #ab8a62;
+    font-family: 'Barlow Condensed';
+    line-height: 30px;
+}
+
+
+.p3{
+    color: white;
+    font-family: 'Barlow Condensed';
+    line-height: 30px;
+}
+
+.h4Contact{
+    color: #ffffffab;
+    font-size: 25px;
+    padding-bottom: 20px;
+    font-family: 'Barlow Condensed';
+
+
+}
+
+.fontContact{
+    color: #ffffffab;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    line-height: 20px;
+
+}
+
+.icones1{
+    color: #ab8a62;
+    width: 20px;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.icones2{
+    color: #ffffffab;
+    width: 20px;
+    padding: 5px;
+}
+
+.icones3{
+    color: #ab8a62;
+    width: 20px;
+    padding: 5px;
+    font-size: 35px;
+}
+
+.formContact{
+    color: #ffffffab;
+    background-color: #2b2b2b;
+
+}
+
+input{
+    background-color: #2b2b2b;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-color: #8b89a654;
+    color: #ffffffab;
+    border-bottom-style: groove;
+    outline: none; 
+    outline-width: 1px;
+
+}
+
+
+
+textarea{
+    background-color: #2b2b2b;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: #ffffffab;
+    padding: 2px;
+    border-bottom-color: #ab8a6228;
+    border-bottom-style: groove;
+    outline:  #ab8a62;
+}
+
+
+.footer{
+    background-color: #1b1b1b;
+    padding: 20px;
+    text-align: center;
+}
+
+.psouligneFooter{
+    color: #ffffffab;
+    font-family: 'Gilda Display', serif;
+    line-height: 30px;
+    text-decoration: underline;
+    text-underline-position: below;
+    text-decoration-color: #ab8a628a;
+    text-decoration-thickness: 2px;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+.btnContact{
+    background-color: #ab8a628a;
+    color: white;
+    align-items: center;
+    align-self: center;
+    font-size: 10px;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-weight: bold;
+    width: 70px;
+    height: 10px;
+}

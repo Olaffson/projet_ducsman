@@ -1,55 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap" rel="stylesheet">
+
     <title>Contact</title>
 </head>
-<body>
 
-    <nav>
+<body class="bodyContact decalage fontContact">
 
-    </nav>
+    <form method="get" class="formContact">
 
-<section>
-    <div>
-<h4>Ducsman</h4>
+        <div class="gridContainerContact">
 
-<p>Nous sommes à votre disposition pour toute question relatives à votre séjour ou pour vous préparer le plus luxueux des voyages.</p>
-<ul>
-    <li><img src="" alt=""></li>
-    <li>Informations & Réservations</li>
-    <li><img src="" alt=""></li>
-    <li>03 20 01 02 03</li>
-    <li><img src="" alt=""></li>
-    <li>Adresse</li>
-    <li>23 avenue des Nations Unies</li>
-    <li>75001 Paris</li>
-</ul>
+            <div class="gridContactDucsman">
+                <h4 class="h4Contact">Ducsman</h4>
+            </div>
+
+            <div class="gridContactTexteCont">
+                <p>Nous sommes à votre disposition pour toute question relatives à votre séjour ou pour vous préparer le
+                    plus luxueux des voyages.</p>
+            </div>
+
+            <div class="gridContactIconeCall">
+                <p class="flaticon-call icones3 "></p>
+            </div>
+
+            <div class="gridContactInfoResa">
+                <p> Informations & Réservation</p>
+            </div>
+
+            <div class="gridContactTelHotel">
+                <p class="p2">03 20 01 02 03</p>
+            </div>
+
+
+
+
+
+           
+
+                <div class="gridContactIconeEnve">
+                    <p class="flaticon-envelope icones3"></p>
+                </div>
+
+                <div class="gridContactMailDucs">
+                    <p>E-mail</p>
+                </div>
+
+                <div class="gridContactEMailHotel">
+                    <a class="p2 afooter" href="mailto:info@ducsman-group.com ">info@ducsman-group.com</a>
+                </div>
+           
+
+
+
+
+
+
+            <div class="gridContactIconeMap">
+                <p class="flaticon-location-pin icones3 "></p>
+            </div>
+
+            <div class="gridContactAdresse">
+                <p>
+                    Adresse <br>
+                    23 avenue des Nations Unies <br>
+                    75001 Paris <br>
+                </p>
+            </div>
+
+
+            <div class="gridContactRestons">
+                <h4 class="h4Contact">Restons en contact</h4>
+            </div>
+
+
+            <div class="gridContactNom">
+                <input type="text" name="nom" placeholder="Votre nom*" size="35"><br><br>
+            </div>
+
+
+            <div class="gridContactMail">
+                <input type="email" name="email" placeholder="Votre e-mail*" size="35">
+            </div>
+
+
+            <div class="gridContactTel">
+                <input type="text" name="tel" placeholder="Votre numéro de téléphone*" size="35">
+            </div>
+
+            <div class="gridContactSujet">
+                <input type="text" name="Sujet" placeholder="Sujet*" size="35">
+            </div>
+
+            <div class="gridContactMessage">
+                <textarea name="precisions" cols="83" rows="4" placeholder="Message*"></textarea>
+            </div>
+
+            <div class="gridContactBouton btnContact">
+                <input type="submit" value="ENVOYER">
+            </div>
+
+
+
+        </div>
+
+    </form>
+
+<div class="divMapGoogle">
+    <div style="-webkit-filter: grayscale(100%); filter: grayscale(100%);">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.925610209474!2d2.285574814707859!3d48.85962890857503!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66ffd263c31ab%3A0x63412f8de4cda1b9!2s23%20Av.%20des%20Nations%20Unies%2C%2075116%20Paris!5e0!3m2!1sfr!2sfr!4v1676993988498!5m2!1sfr!2sfr"
+            width="1100" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
-    <div>
-        <form>
-            <h4>Restons en contact</h4>
-
-        </form>
-    </div>
-</section>
-
-
-
-
-
-
-
-
-
-
+</div>
 
 
     <footer>
 
     </footer>
 
+    <script src="script.js"></script>
+
+
 </body>
+
 </html>

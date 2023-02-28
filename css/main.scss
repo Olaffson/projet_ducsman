@@ -1,5 +1,6 @@
-@import './01_Base/normalize';
-@import './01_Base/reset';
+@import './07_Vendors/reset.css';
+@import './07_Vendors/normalize.css';
+@import './02_Utils/themify-icons.css';
 @import './02_Utils/variables';
 @import './01_Base/typography';
 @import './07_Vendors/themify-icons';
@@ -12,3 +13,9 @@
 @import './03_Layout/position';
 @import './05_Pages/accueil';
 @import './05_Pages/chambre';
+@import './03_Layout/gridcontact';
+@import './02_Utils/flaticons';
+@import './03_Layout/blocsgeneraux';
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Gilda+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&display=swap');
+
