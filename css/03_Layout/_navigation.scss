@@ -33,7 +33,7 @@ nav{
     }
 }
 
-header > a{
+header > a:nth-child(1){
     background-color: #1b1b1b;
     display: flex;
     flex-direction: column;
@@ -55,16 +55,21 @@ header > a{
     }
 }
 
-header > div{
+header > a:nth-child(3){
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 20px;
+    text-decoration: none;
 }
 
 .padding__nav{
     padding-top: 70px;
     padding-bottom: 70px;
+}
+
+.padding__tel{
+    margin-top: 70px;
     div{
         p:nth-child(1){
             font-size: 1.2em;
