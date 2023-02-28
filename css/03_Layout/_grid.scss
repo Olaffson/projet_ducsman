@@ -73,6 +73,7 @@
     figure{
         position: relative;
         figcaption{
+            // overflow: hidden;
             >a{
                 position: absolute;
                 right: -10px;
@@ -81,8 +82,9 @@
             }
             .cache{
                 position: absolute;
-                bottom: 0px;
+                bottom: -90px;
                 width: 100%;
+                transition: all 1s ease-in-out;
                 >p:nth-child(1){
                     color: white;
                     font-size: 2em;
@@ -120,6 +122,9 @@
                     }
                 }
             }
+        }
+        &:hover .cache{
+            bottom: 0px;
         }
     }
 }
@@ -192,7 +197,20 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
     gap: 40px;
-    >div{
+    h5{
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    p{
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    span{
+        color: $color5;
+        font-size: 1.5em;
+        padding-right: 10px;
+    }
+    >div:nth-child(1){
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
     }
