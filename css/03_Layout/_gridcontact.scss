@@ -16,63 +16,67 @@
 
 .gridContactDucsman {
     grid-area: Ducsman;
-    padding: 20px;
+    padding-left: 50px;
 }
 
 .gridContactRestons {
     grid-area: Restons;
-    padding: 20px;
+    padding-left: 50px;
 }
 
 .gridContactTexteCont {
     grid-area: TexteCont;
     align-self: start;
-    padding: 20px;
+    padding-left: 50px;
 }
 
 .gridContactNom {
     grid-area: Nom;
-    padding: 20px;
+    padding-left: 50px;
 }
 
 .gridContactMail {
     grid-area: MailClient;
-    padding: 20px;
+    padding-left: 50px;
 }
 
 .gridContactIconeCall {
     grid-area: IconeCall;
     align-self: center;
     font-weight: bold;
-    padding: 20px;
+    padding-left: 50px;
 }
 
 .gridContactInfoResa {
     grid-area: InfoRésa;
 padding-top: 20px;
+padding-left: 50px;
 }
 
 .gridContactTelHotel {
     grid-area: TelHotel;
     padding-bottom: 20px;
+    padding-left: 50px;
 }
 
 .gridContactTel {
     grid-area: Tel;
     padding: 20px;
+    padding-left: 50px;
 }
 
 
 .gridContactSujet {
     grid-area: Sujet;
     padding: 20px;
+    padding-left: 50px;
 }
 
 .gridContactIconeMap {
     grid-area: IconeMap;
     align-self: center;
     font-weight: bold;
-    padding-left: 20px;
+    padding-left: 50px;
     font-size: 60px;
 }
 
@@ -81,18 +85,20 @@ padding-top: 20px;
     align-self: center;
     padding-top: 20px;
     padding-bottom: 20px;
+    padding-left: 50px;
 }
 
 .gridContactMessage {
     grid-area: Message;
     padding: 20px;
+    padding-left: 50px;
 }
 
 .gridContactIconeEnve {
     grid-area: IconeEnve;
     align-self: center;
     font-weight: bold;
-    padding: 20px;
+    padding-left: 50px;
 }
 
 
@@ -103,6 +109,7 @@ padding-top: 20px;
 .gridContactMailDucs {
     grid-area: MailDucs;
     padding-top: 20px;
+    padding-left: 50px;
 }
 
 .gridContactEMailHotel {
@@ -110,6 +117,7 @@ padding-top: 20px;
     font-weight: bold;
     font-size: 15px;
     padding-bottom: 20px;
+    padding-left: 50px;
 } 
 
 
@@ -120,6 +128,7 @@ padding-top: 20px;
 
 .gridContactBouton {
     grid-area: Bouton;
+    padding-left: 50px;
 }
 
 
@@ -140,7 +149,7 @@ padding-top: 20px;
 
 .gridFooterApropos {
     grid-area: APropos;
-    padding-left: 50px;
+
     padding-top: 30px;
 }
 
@@ -148,7 +157,7 @@ padding-top: 20px;
     grid-area: Footertexte;
     align-items: start;
     align-self: flex-start;
-    padding: 50px;
+
     }
 
 
@@ -177,6 +186,7 @@ padding-top: 20px;
     padding-top: -30px;
     padding-bottom: -30px;
     padding-right: -300px;
+
 
 }
 
@@ -207,6 +217,7 @@ padding-top: 20px;
     padding-top: 20px;
     padding-left: 50px;
     padding-bottom: 20px;
+
 
 }
 
