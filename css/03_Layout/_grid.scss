@@ -24,6 +24,7 @@
 .photo__etalement{
     display: block;
     width: 100%;
+    filter: brightness(80%);
 }
 
 // grid page acceuil section chambres
@@ -134,13 +135,16 @@
     display: grid;
     max-width: auto;
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-    height: 300px;
     gap: 30px;
     >div{
         padding: 40px;
         display: flex;
         flex-direction: column;
         justify-content: center;
+
+        &:nth-child(1){
+            padding-left: 0;
+        }
 
         >p{
             padding-top: 15px;
@@ -171,7 +175,6 @@
     display: grid;
     max-width: auto;
     gap: 30px;
-    height: 300px;
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
     div{
         padding: 20px;
@@ -187,9 +190,11 @@
 .grid__footer1{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-    h6{
-        padding-top: 100px;
+    
+    >div:nth-child(1){
+        padding-right: 200px;
     }
+    
 }
 
 // grid page detail chambre
