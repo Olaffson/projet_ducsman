@@ -1,90 +1,97 @@
+
 .gridContainerContact {
-        display: grid;
-        grid-template-areas:
-        "Ducsman       Ducsman      Ducsman       Ducsman     Restons   Restons "
-        "TexteCont     TexteCont    TexteCont     TexteCont   Nom       Mail   "
-        "IconeCall     InfoRésa     InfoRésa      InfoRésa    Tel       Sujet  "
-        "IconeCall     MailDucs     MailDucs      MailDucs    Tel       Sujet  "
-        "IconeEnve     Adresse      Adresse       Adresse     Message   Message  "
-        "IconeEnve     Adresse      Adresse       Adresse     Message   Message  "
-        "IconeMap      Adresse      Adresse       Adresse     Message   Message  "
-        "IconeMap      Adresse      Adresse       Adresse     Bouton    Bouton  ";
-}
+    display: grid;
+
+    grid-template-areas:
+    "Ducsman       Ducsman       Ducsman       Ducsman       Ducsman       Ducsman     Restons   Restons   Restons   Restons      Restons      Restons "
+    "TexteCont     TexteCont     TexteCont     TexteCont     TexteCont     TexteCont   Nom       Nom       Nom       MailClient   MailClient   MailClient   "
+    "IconeCall     InfoRésa      InfoRésa      InfoRésa      InfoRésa      InfoRésa    Tel       Tel       Tel       Sujet        Sujet        Sujet  "
+    "IconeCall     TelHotel      TelHotel      TelHotel      TelHotel      TelHotel    Tel       Tel       Tel       Sujet        Sujet        Sujet   "
+    "IconeEnve     MailDucs      MailDucs      MailDucs      MailDucs      MailDucs    Message   Message   Message   Message      Message      Message  "
+    "IconeEnve     MailHotel     MailHotel     MailHotel     MailHotel     MailHotel   Message   Message   Message   Message      Message      Message  "
+    "IconeMap      Adresse       Adresse       Adresse       Adresse       Adresse     Message   Message   Message   Message      Message      Message  "
+    "IconeMap      Adresse       Adresse       Adresse       Adresse       Adresse     Bouton    Bouton    Bouton    Bouton       Bouton       Bouton   ";
+} 
+
 
 .gridContactDucsman {
     grid-area: Ducsman;
-
 }
 
 .gridContactRestons {
     grid-area: Restons;
-
 }
 
 .gridContactTexteCont {
     grid-area: TexteCont;
-
 }
 
 .gridContactNom {
     grid-area: Nom;
-
 }
 
 .gridContactMail {
-    grid-area: Mail;
-
+    grid-area: MailClient;
 }
 
 .gridContactIconeCall {
     grid-area: IconeCall;
-
 }
 
 .gridContactInfoResa {
     grid-area: InfoRésa;
+}
 
+.gridContactTelHotel {
+    grid-area: TelHotel;
 }
 
 .gridContactTel {
     grid-area: Tel;
-
 }
+
 
 .gridContactSujet {
     grid-area: Sujet;
-
 }
 
 .gridContactIconeMap {
-    grid-area: Map;
-
+    grid-area: IconeMap;
 }
 
 .gridContactAdresse {
     grid-area: Adresse;
-
 }
 
 .gridContactMessage {
     grid-area: Message;
-
 }
 
 .gridContactIconeEnve {
     grid-area: IconeEnve;
-align-items: center;
-justify-content: center;
 }
+
+
+
+
+
 
 .gridContactMailDucs {
     grid-area: MailDucs;
-
 }
+
+.gridContactEMailHotel {
+    grid-area: MailHotel;
+} 
+
+
+
+
+
+
 
 .gridContactBouton {
     grid-area: Bouton;
-
 }
 
 
