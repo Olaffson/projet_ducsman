@@ -16,59 +16,83 @@
 
 .gridContactDucsman {
     grid-area: Ducsman;
+    padding: 20px;
 }
 
 .gridContactRestons {
     grid-area: Restons;
+    padding: 20px;
 }
 
 .gridContactTexteCont {
     grid-area: TexteCont;
+    align-self: start;
+    padding: 20px;
 }
 
 .gridContactNom {
     grid-area: Nom;
+    padding: 20px;
 }
 
 .gridContactMail {
     grid-area: MailClient;
+    padding: 20px;
 }
 
 .gridContactIconeCall {
     grid-area: IconeCall;
+    align-self: center;
+    font-weight: bold;
+    padding: 20px;
 }
 
 .gridContactInfoResa {
     grid-area: InfoRésa;
+padding-top: 20px;
 }
 
 .gridContactTelHotel {
     grid-area: TelHotel;
+    padding-bottom: 20px;
 }
 
 .gridContactTel {
     grid-area: Tel;
+    padding: 20px;
 }
 
 
 .gridContactSujet {
     grid-area: Sujet;
+    padding: 20px;
 }
 
 .gridContactIconeMap {
     grid-area: IconeMap;
+    align-self: center;
+    font-weight: bold;
+    padding-left: 20px;
+    font-size: 60px;
 }
 
 .gridContactAdresse {
     grid-area: Adresse;
+    align-self: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .gridContactMessage {
     grid-area: Message;
+    padding: 20px;
 }
 
 .gridContactIconeEnve {
     grid-area: IconeEnve;
+    align-self: center;
+    font-weight: bold;
+    padding: 20px;
 }
 
 
@@ -78,10 +102,14 @@
 
 .gridContactMailDucs {
     grid-area: MailDucs;
+    padding-top: 20px;
 }
 
 .gridContactEMailHotel {
     grid-area: MailHotel;
+    font-weight: bold;
+    font-size: 15px;
+    padding-bottom: 20px;
 } 
 
 
@@ -97,58 +125,114 @@
 
 .gridContainerFooter {
     display: grid;
+    padding: 20px;
     grid-template-areas:
-        "APropos     APropos     APropos     APropos     APropos     APropos     APropos     Contact Contact Contact Contact  Contact"
-        "Footertexte Footertexte Footertexte Footertexte Footertexte Footertexte Footertexte Contact Contact Contact Contact  Contact"
-        "Footertexte Footertexte Footertexte Footertexte Footertexte Footertexte Footertexte Contact Contact Contact Contact  Contact"
-        "Footertexte Footertexte Footertexte Footertexte Footertexte Footertexte Footertexte Insta   Twitter YouTube Facebook Pintarest"
-        "Footertexte Footertexte Footertexte Footertexte Footertexte Footertexte Footertexte Insta   Twitter YouTube Facebook Pintarest"
-        "Footertexte Footertexte Footertexte Footertexte Footertexte Footertexte Footertexte Insta   Twitter YouTube Facebook Pintarest";
+        "APropos     APropos     APropos     APropos     APropos     APropos     APropos     Contact Contact Contact Contact  Contact "
+        "Footertexte Footertexte Footertexte Footertexte Footertexte Footertexte Footertexte Avenue  Avenue  Avenue  Avenue   Avenue "
+        "Footertexte Footertexte Footertexte Footertexte Footertexte Footertexte Footertexte Avenue  Avenue  Avenue  Avenue   Avenue "
+        "Footertexte Footertexte Footertexte Footertexte Footertexte Footertexte Footertexte IcoCall NumTel  NumTel  NumTel   NumTel "
+        "Footertexte Footertexte Footertexte Footertexte Footertexte Footertexte Footertexte Info    Info    Info    Info     Info "
+        "Footertexte Footertexte Footertexte Footertexte Footertexte Footertexte Footertexte Insta   Twitter YouTube Facebook Pintarest "
+        "Footertexte Footertexte Footertexte Footertexte Footertexte Footertexte Footertexte Insta   Twitter YouTube Facebook Pintarest "
+        "Footertexte Footertexte Footertexte Footertexte Footertexte Footertexte Footertexte Insta   Twitter YouTube Facebook Pintarest ";
 
 }
 
-.grigFooterApropos {
+.gridFooterApropos {
     grid-area: APropos;
-    padding: 20px;
+    padding-left: 50px;
+    padding-top: 30px;
 }
 
-.grigFootertexte {
+.gridFootertexte {
     grid-area: Footertexte;
-    padding: 20px;
+    align-items: start;
+    align-self: flex-start;
+    padding: 50px;
     }
 
-.gridFooterContact {
-    grid-area: Contact;
-    padding: 20px;
-}
+
+
+
 
 .gridFooterContact {
     grid-area: Contact;
-    padding: 20px;
+    padding-left: 50px;
+    padding-top: 30px;
+
 }
+
+
+
+.gridavenue{
+    grid-area: Avenue;
+    padding-left: 50px;
+    padding-top: 30px;
+
+}
+
+.gridIcoCall{
+    grid-area: IcoCall;
+    padding-left: 50px;
+    padding-top: -30px;
+    padding-bottom: -30px;
+    padding-right: -300px;
+
+}
+
+.gridNumTel{
+    grid-area: NumTel;
+    padding-left: -60px;
+    padding-top: -30px;
+    padding-bottom: -30px;
+    font-weight: 100;
+}
+
+
+
+
+
+
+.gridInfoDuc {
+    grid-area: Info;
+    padding-left: 50px;
+
+}
+
+
+
 
 .gridFooterInsta {
     grid-area: Insta;
-    padding: 20px;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+
 }
 
 .gridFooterTwitter {
     grid-area: Twitter;
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .gridFooterToutube {
     grid-area: YouTube;
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .gridFooterFacebook {
     grid-area: Facebook;
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .gridFooterPintarest {
     grid-area: Pintarest;
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
+
+
 
