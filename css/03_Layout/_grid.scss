@@ -27,22 +27,6 @@
     filter: brightness(80%);
 }
 
-// grid page acceuil section chambres
-.grid__chambres{
-    display: grid;
-    gap: 30px;
-    margin: auto;
-    grid-template-columns: repeat(6, 1fr);
-}
-
-.ligne1{
-    grid-column: span 2;
-}
-
-.ligne2{
-    grid-column: span 3;
-}
-
 // grid page acceuil section hotel
 .grid__hotel{
     display: grid;
@@ -70,6 +54,21 @@
 }
 
 // grid page accueil section chambre
+.grid__chambres{
+    display: grid;
+    gap: 30px;
+    margin: auto;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.ligne1{
+    grid-column: span 2;
+}
+
+.ligne2{
+    grid-column: span 3;
+}
+
 .grid__chambres{
     figure{
         position: relative;
@@ -194,7 +193,7 @@
     >div:nth-child(1){
         padding-right: 200px;
     }
-    
+
 }
 
 // grid page detail chambre
@@ -221,7 +220,24 @@
     }
 }
 
+@media screen and (max-width:500px) {
+    /** Mobile **/
+    .grid__chambres{
+        display: grid;
+        gap: 30px;
+        margin: auto;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .ligne1{
+        grid-column: span 1;
+    }
+    
+    .ligne2{
+        grid-column: span 1;
+    }
 
+}
 
 
 
