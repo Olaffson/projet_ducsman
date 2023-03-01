@@ -220,7 +220,7 @@
     }
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:600px) {
     /** Mobile **/
     .grid__chambres{
         display: grid;
@@ -237,6 +237,9 @@
         grid-column: span 1;
     }
 
+    .decalage{
+        margin-left: 0;
+    }
 }
 
 
