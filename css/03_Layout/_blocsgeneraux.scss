@@ -84,6 +84,14 @@ p{
     font-size: 20px;
 }
 
+
+.icones5{
+    color: white;
+    width: 20px;
+    padding: 5px;
+    font-size: 15px;
+}
+
 .formContact{
     color: #ffffffab;
     background-color: #2b2b2b;
@@ -99,9 +107,23 @@ input{
     color: #ffffffab;
     border-bottom-style: groove;
     outline: none; 
-    outline-width: 1px;
+    outline-width: 1px;}
 
-}
+    input:focus{
+        background-color: #2b2b2b;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom-color: #ab8a629c; 
+        color: #ffffffab;
+        border-bottom-style: groove;
+        outline: none; 
+        outline-width: 1px;
+
+    }
+
+
+
 
 
 
@@ -112,11 +134,23 @@ textarea{
     border-right: none;
     color: #ffffffab;
     padding: 2px;
-    border-bottom-color: #ab8a6228;
+    border-bottom-color: #8b89a654;
     border-bottom-style: groove;
-    outline:  #ab8a62;
+    outline: none;
 }
 
+textarea:focus{
+    background-color: #2b2b2b;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: #ffffffab;
+    padding: 2px;
+    border-bottom-color: #ab8a629c; 
+    border-bottom-style: groove;
+    outline: none;
+
+}
 
 .footer{
     background-color: #1b1b1b;
